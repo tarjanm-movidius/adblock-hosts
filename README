@@ -1,0 +1,9 @@
+Say you have some little Linux board in your network
+Say you run dnsmasq on it
+Say you tell your router to use its (fixed) IP as DNS server on DHCP
+This is your hosts file.
+
+Say you enable logging too, dns_procservers.sh will process it (gzipped) for
+further trash servers to add to the list
+
+Not exactly the first attempt to accomplish this, submodules rolling in.
