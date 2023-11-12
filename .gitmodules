@@ -1,0 +1,6 @@
+[submodule "domain-list-community"]
+	path = domain-list-community
+	url = https://github.com/v2ray/domain-list-community.git
+[submodule "WindowsSpyBlocker"]
+	path = WindowsSpyBlocker
+	url = https://github.com/crazy-max/WindowsSpyBlocker.git

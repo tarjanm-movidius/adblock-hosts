@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # gzip < dns.log > dns_ads.log.gz && echo -n "" > dns.log && killall -HUP dnsmasq
-DNSSRV="pasaje"	# comment out for localhost
+DNSSRV="my_dns_server"	# comment out for localhost
 DNSLOG="dns_ads.log"
 [ -d /dev/shm/tmp/ ] && DEVSHMTMP="/dev/shm/tmp/$RANDOM/" && mkdir "$DEVSHMTMP" || DEVSHMTMP=""
 ALL_SERVERS="${DEVSHMTMP}dns_all_servers.txt"
