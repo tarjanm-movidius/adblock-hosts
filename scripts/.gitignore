@@ -1,2 +1,7 @@
 adservers_*.txt
 hosts_*
+dns_ads.log
+dns_ads.log.gz
+dns_all_servers.txt
+dns_hosts-*
+dns_nb_servers.txt
