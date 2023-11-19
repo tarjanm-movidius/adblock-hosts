@@ -1,8 +1,9 @@
 #!/bin/sh
 
-SUBM_DIR="../domain-list-community"
-LISTFILE="adservers_domain-list-community.txt"
-HOSTFILE="hosts_domain-list-community"
+MYPATH="`dirname $0`"
+SUBM_DIR="$MYPATH/../domain-list-community"
+LISTFILE="$MYPATH/adservers_domain-list-community.txt"
+HOSTFILE="$MYPATH/hosts_domain-list-community"
 
 echo "# `git -C $SUBM_DIR rev-parse HEAD`" > "$HOSTFILE"
 

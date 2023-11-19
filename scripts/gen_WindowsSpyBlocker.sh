@@ -1,8 +1,9 @@
 #!/bin/sh
 
-SUBM_DIR="../WindowsSpyBlocker"
-LISTFILE="adservers_WindowsSpyBlocker.txt"
-HOSTFILE="hosts_WindowsSpyBlocker"
+MYPATH="`dirname $0`"
+SUBM_DIR="$MYPATH/../WindowsSpyBlocker"
+LISTFILE="$MYPATH/adservers_WindowsSpyBlocker.txt"
+HOSTFILE="$MYPATH/hosts_WindowsSpyBlocker"
 
 echo "# `git -C $SUBM_DIR rev-parse HEAD`" > "$HOSTFILE"
 
