@@ -4,3 +4,12 @@
 [submodule "WindowsSpyBlocker"]
 	path = WindowsSpyBlocker
 	url = https://github.com/crazy-max/WindowsSpyBlocker.git
+[submodule "adblock-hosts"]
+	path = adblock-hosts
+	url = https://github.com/bornova/adblock-hosts.git
+[submodule "adBlockHosts"]
+	path = adBlockHosts
+	url = https://github.com/Square252/adBlockHosts.git
+[submodule "StevenBlack"]
+	path = StevenBlack
+	url = https://github.com/StevenBlack/hosts.git
