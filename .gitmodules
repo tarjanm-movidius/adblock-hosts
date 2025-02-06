@@ -13,3 +13,6 @@
 [submodule "StevenBlack"]
 	path = StevenBlack
 	url = https://github.com/StevenBlack/hosts.git
+[submodule "GoodbyeAds"]
+	path = GoodbyeAds
+	url = https://github.com/jerryn70/GoodbyeAds.git
