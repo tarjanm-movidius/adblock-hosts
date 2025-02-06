@@ -16,3 +16,6 @@
 [submodule "GoodbyeAds"]
 	path = GoodbyeAds
 	url = https://github.com/jerryn70/GoodbyeAds.git
+[submodule "youtube_ad_blocklist"]
+	path = youtube_ad_blocklist
+	url = https://github.com/ewpratten/youtube_ad_blocklist.git
